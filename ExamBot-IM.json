@@ -17,6 +17,10 @@
                     "samples": []
                 },
                 {
+                    "name": "AMAZON.QuizIntent",
+                    "samples": []
+                },
+                {
                     "name": "AMAZON.HelpIntent",
                     "samples": []
                 },
