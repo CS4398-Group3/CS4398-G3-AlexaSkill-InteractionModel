@@ -22,7 +22,12 @@
                 },
                 {
                     "name": "AMAZON.StopIntent",
-                    "samples": []
+                    "samples": [
+                        "let's stop for now",
+                        "quit",
+                        "end quiz",
+                        "stop quiz"
+                    ]
                 },
                 {
                     "name": "AnswerIntent",
@@ -57,15 +62,22 @@
                 {
                     "name": "AMAZON.StartOverIntent",
                     "samples": [
-                        "start game",
-                        "new game",
+                        "start quiz",
+                        "new quiz",
                         "start",
-                        "start new game"
+                        "start new quiz"
                     ]
                 },
                 {
                     "name": "AMAZON.RepeatIntent",
-                    "samples": []
+                    "samples": [
+                        "can you say that again",
+                        "can you repeat that",
+                        "repeat the question",
+                        "repeat",
+                        "say it again",
+                        "what"
+                    ]
                 },
                 {
                     "name": "AMAZON.YesIntent",
