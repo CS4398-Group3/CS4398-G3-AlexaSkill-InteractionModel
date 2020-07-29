@@ -64,6 +64,13 @@
                     ]
                 },
                 {
+                    "name": "AMAZON.StartExamBotIntent",
+                    "samples": [
+                        "start exam bot",
+                        "exam bot"
+                    ]
+                },
+                {
                     "name": "AMAZON.StartOverIntent",
                     "samples": [
                         "start quiz",
