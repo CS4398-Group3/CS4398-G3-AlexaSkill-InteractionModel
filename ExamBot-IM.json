@@ -51,6 +51,15 @@
                     ]
                 },
                 {
+                    "name": "TopicIntent",
+                    "slots": [],
+                    "samples": [
+                        "what topics can i study",
+                        "topics",
+                        "which topics can i study"
+                    ]
+                },
+                {
                     "name": "DontKnowIntent",
                     "slots": [],
                     "samples": [
@@ -73,7 +82,7 @@
                     ]
                 },
                 {
-                    "name": "AMAZON.StartOverIntent",
+                    "name": "AMAZON.StartQuizIntent",
                     "samples": [
                         "start quiz",
                         "new quiz",
