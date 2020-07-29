@@ -35,6 +35,15 @@
                     ]
                 },
                 {
+                    "name": "AddQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "i would like to add a question",
+                        "can i add a question",
+                        "i want to add a question"
+                    ]
+                },
+                {
                     "name": "AnswerIntent",
                     "slots": [
                         {
@@ -51,6 +60,15 @@
                     ]
                 },
                 {
+                    "name": "AddAnswerIntent",
+                    "slots": [],
+                    "samples": [
+                        "i would like to add an answer",
+                        "can i add an answer",
+                        "i want to add an answer"
+                    ]
+                },
+                {
                     "name": "TopicIntent",
                     "slots": [],
                     "samples": [
@@ -60,6 +78,15 @@
                         "what are the topics",
                         "what topics can i choose from",
                         "give me the topics"
+                    ]
+                },
+                {
+                    "name": "AddTopicIntent",
+                    "slots": [],
+                    "samples": [
+                        "i would like to add a topic",
+                        "can i add a topic",
+                        "i want to introduce a new topic"
                     ]
                 },
                 {
