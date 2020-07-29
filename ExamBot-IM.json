@@ -56,7 +56,10 @@
                     "samples": [
                         "what topics can i study",
                         "topics",
-                        "which topics can i study"
+                        "which topics can i study",
+                        "what are the topics",
+                        "what topics can i choose from",
+                        "give me the topics"
                     ]
                 },
                 {
@@ -87,7 +90,8 @@
                         "start quiz",
                         "new quiz",
                         "start",
-                        "start new quiz"
+                        "start new quiz",
+                        "start topic quiz"
                     ]
                 },
                 {
@@ -98,7 +102,8 @@
                         "repeat the question",
                         "repeat",
                         "say it again",
-                        "what"
+                        "what",
+                        "excuse me"
                     ]
                 },
                 {
