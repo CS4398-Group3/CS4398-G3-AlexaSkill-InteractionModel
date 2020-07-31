@@ -68,16 +68,16 @@
                         "i want to add an answer"
                     ]
                 },
-                {
-                    "name": "MultipleChoiceIntent",
-                    "slots": [],
-                    "samples": [
-                        "a",
-                        "b",
-                        "c",
-                        "d"
-                    ]
-                },
+//                {
+//                    "name": "MultipleChoiceIntent",
+  //                  "slots": [],
+    //                "samples": [
+      //                  "a",
+        //                "b",
+          //              "c",
+            //            "d"
+              //      ]
+                //},
                 {
                     "name": "TopicIntent",
                     "slots": [],
