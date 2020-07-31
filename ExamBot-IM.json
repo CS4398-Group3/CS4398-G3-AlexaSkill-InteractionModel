@@ -60,24 +60,16 @@
                     ]
                 },
                 {
-                    "name": "AddAnswerIntent",
+                    "name": "AddAnswerSetIntent",
                     "slots": [],
                     "samples": [
-                        "i would like to add an answer",
-                        "can i add an answer",
-                        "i want to add an answer"
+                        "i would like to add an answer set",
+                        "can i add an answer set",
+                        "i want to add an answer set",
+                        "here is the answer set",
+                        "these are the answer choice"
                     ]
                 },
-//                {
-//                    "name": "MultipleChoiceIntent",
-  //                  "slots": [],
-    //                "samples": [
-      //                  "a",
-        //                "b",
-          //              "c",
-            //            "d"
-              //      ]
-                //},
                 {
                     "name": "TopicIntent",
                     "slots": [],
