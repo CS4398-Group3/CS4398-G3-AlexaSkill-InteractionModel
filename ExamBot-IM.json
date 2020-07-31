@@ -81,6 +81,17 @@
                     ]
                 },
                 {
+                    "name": "TopicChoiceIntent",
+                    "slots": [],
+                    "samples": [
+                        "let's start with {Topic}",
+                        "{Topic}",
+                        "i would like to do {Topic}",
+                        "lets do {Topic}",
+                        "can we do {Topic}"
+                    ]
+                },
+                {
                     "name": "AddTopicIntent",
                     "slots": [],
                     "samples": [
