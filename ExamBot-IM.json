@@ -1,23 +1,10 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "exam practice",
-            "modelConfiguration": {
-                "fallbackIntentSensitivity": {
-                    "level": "LOW"
-                }
-            },
+            "invocationName": "exam bot",
             "intents": [
                 {
-                    "name": "AMAZON.FallbackIntent",
-                    "samples": []
-                },
-                {
                     "name": "AMAZON.CancelIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.QuizIntent",
                     "samples": []
                 },
                 {
@@ -26,21 +13,20 @@
                 },
                 {
                     "name": "AMAZON.StopIntent",
-                    "samples": [
-                        "let's stop for now",
-                        "quit",
-                        "end quiz",
-                        "stop quiz",
-                        "stop"
-                    ]
+                    "samples": []
                 },
                 {
-                    "name": "AddQuestionIntent",
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StopIntent",
                     "slots": [],
                     "samples": [
-                        "i would like to add a question",
-                        "can i add a question",
-                        "i want to add a question"
+                        "stop quiz",
+                        "end quiz",
+                        "quit",
+                        "let's stop for now"
                     ]
                 },
                 {
@@ -48,118 +34,164 @@
                     "slots": [
                         {
                             "name": "Answer",
-                            "type": "AMAZON.NUMBER"
+                            "type": "AMAZON.SearchQuery"
                         }
                     ],
                     "samples": [
-                        "the answer is {Answer}",
-                        "my answer is {Answer}",
-                        "is it {Answer}",
+                        "it's {Answer} ",
                         "{Answer} is my answer",
-                        "{Answer}"
-                    ]
-                },
-                {
-                    "name": "AddAnswerSetIntent",
-                    "slots": [],
-                    "samples": [
-                        "i would like to add an answer set",
-                        "can i add an answer set",
-                        "i want to add an answer set",
-                        "here is the answer set",
-                        "these are the answer choice"
-                    ]
-                },
-                {
-                    "name": "TopicIntent",
-                    "slots": [],
-                    "samples": [
-                        "what topics can i study",
-                        "topics",
-                        "which topics can i study",
-                        "what are the topics",
-                        "what topics can i choose from",
-                        "give me the topics"
-                    ]
-                },
-                {
-                    "name": "TopicChoiceIntent",
-                    "slots": [],
-                    "samples": [
-                        "let's start with {Topic}",
-                        "{Topic}",
-                        "i would like to do {Topic}",
-                        "lets do {Topic}",
-                        "can we do {Topic}"
-                    ]
-                },
-                {
-                    "name": "AddTopicIntent",
-                    "slots": [],
-                    "samples": [
-                        "i would like to add a topic",
-                        "can i add a topic",
-                        "i want to introduce a new topic"
+                        "it it {Answer}",
+                        "my answer is {Answer}",
+                        "the answer is {Answer}"
                     ]
                 },
                 {
                     "name": "DontKnowIntent",
                     "slots": [],
                     "samples": [
-                        "i don't know",
-                        "don't know",
-                        "i don't know that one",
-                        "dunno",
-                        "skip",
-                        "i don't know that",
+                        "i don't know this question",
                         "who knows",
-                        "i don't know this question"
+                        "i don't know that",
+                        "skip",
+                        "dunno",
+                        "i don't know that one",
+                        "don't know",
+                        "I don't know"
                     ]
                 },
                 {
-                    "name": "AMAZON.StartExamBotIntent",
+                    "name": "StartQuizIntent",
+                    "slots": [],
                     "samples": [
-                        "start exam bot",
-                        "exam bot",
-                        "launch exam bot"
-                    ]
-                },
-                {
-                    "name": "AMAZON.StartQuizIntent",
-                    "samples": [
-                        "start quiz",
-                        "new quiz",
-                        "start",
+                        "start topic quiz",
                         "start new quiz",
-                        "start topic quiz"
+                        "new quiz",
+                        "start quiz"
                     ]
                 },
                 {
-                    "name": "AMAZON.RepeatIntent",
+                    "name": "RepeatClient",
+                    "slots": [],
                     "samples": [
-                        "can you say that again",
-                        "can you repeat that",
-                        "repeat the question",
-                        "repeat",
-                        "say it again",
+                        "excuse me",
                         "what",
-                        "excuse me"
+                        "say it again",
+                        "repeat",
+                        "repeat the question",
+                        "can you repeat that",
+                        "can you say that again"
                     ]
                 },
                 {
-                    "name": "AMAZON.YesIntent",
-                    "samples": []
+                    "name": "StartExamBotIntent",
+                    "slots": [],
+                    "samples": [
+                        "launch exam bot",
+                        "start exam bot",
+                        "Exam bot"
+                    ]
                 },
                 {
-                    "name": "AMAZON.NoIntent",
-                    "samples": []
+                    "name": "TopicIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me the topics",
+                        "what topics can i choose from",
+                        "what are the topics",
+                        "which topics can i study",
+                        "topics",
+                        "what topics can i study"
+                    ]
                 },
                 {
-                    "name": "AMAZON.NavigateHomeIntent",
-                    "samples": []
+                    "name": "AddTopicIntent",
+                    "slots": [],
+                    "samples": [
+                        "i want to introduce a new topic",
+                        "can i add a topic",
+                        "i would like to add a topic"
+                    ]
+                },
+                {
+                    "name": "AddQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "i want to add a question",
+                        "can i add a question",
+                        "i would like to add a question"
+                    ]
+                },
+                {
+                    "name": "AddAnswerSetIntent",
+                    "slots": [],
+                    "samples": [
+                        "these are the answer choice",
+                        "here is the answer set",
+                        "i want to add an answer set",
+                        "can i add an answer set",
+                        "i would like to add an answer set"
+                    ]
+                },
+                {
+                    "name": "TopicChoiceIntent",
+                    "slots": [
+                        {
+                            "name": "Topic",
+                            "type": "Subject",
+                            "multipleValues": {
+                                "enabled": true
+                            }
+                        }
+                    ],
+                    "samples": [
+                        "can we do {Topic}",
+                        "lets do {Topic}",
+                        "i would like to do {Topic}",
+                        "{Topic}",
+                        "let's start with {Topic}"
+                    ]
                 }
             ],
-            "types": []
+            "types": [
+                {
+                    "name": "Subject",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "history"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "math",
+                                "synonyms": [
+                                    "mathematics"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "geometry"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "True_False",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "false"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "true"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
